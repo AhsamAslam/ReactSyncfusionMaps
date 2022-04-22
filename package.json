@@ -1,26 +1,14 @@
 {
-  "name": "react-syncfusion-typescript",
+  "name": "react-syncfucion-js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@syncfusion/ej2-base": "^20.1.50",
-    "@syncfusion/ej2-buttons": "^20.1.50",
-    "@syncfusion/ej2-popups": "^20.1.47",
-    "@syncfusion/ej2-react-base": "^20.1.47",
-    "@syncfusion/ej2-react-buttons": "^20.1.50",
-    "@syncfusion/ej2-react-maps": "^20.1.48",
-    "@syncfusion/ej2-react-popups": "^20.1.47",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.1",
-    "@types/node": "^16.11.27",
-    "@types/react": "^18.0.5",
-    "@types/react-dom": "^18.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.6.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

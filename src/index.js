@@ -23,10 +23,10 @@ registerLicense(
 
 ReactDOM.render(
   <MapsComponent id="maps">
-    <Inject services={[MapsTooltip]} />
-    {/* <Inject services={[Marker]} /> */}
+    {/* <Inject services={[MapsTooltip]} /> */}
+    <Inject services={[Marker]} />
     <LayersDirective>
-      {/* <LayerDirective shapeData={world_map}>
+      <LayerDirective shapeData={world_map}>
         <MarkersDirective>
           <MarkerDirective
             visible={true}
@@ -40,14 +40,14 @@ ReactDOM.render(
             ]}
           ></MarkerDirective>
         </MarkersDirective>
-      </LayerDirective> */}
-      <LayerDirective
+      </LayerDirective>
+      {/* <LayerDirective
         shapeData={world_map}
         tooltipSettings={{
           visible: true,
           valuePath: "name",
         }}
-      ></LayerDirective>
+      ></LayerDirective> */}
     </LayersDirective>
   </MapsComponent>,
   document.getElementById("maps")
